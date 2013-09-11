@@ -1,0 +1,6 @@
+ul
+{
+list-style-type: none;
+}
+
+li:nth-child(2n) {color:blue;}
