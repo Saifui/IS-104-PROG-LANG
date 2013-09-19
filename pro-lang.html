@@ -7,21 +7,40 @@
 
 <html>
 <body>
+
+
+<ul class="navbar">
+	<li><a href="hjem.html">Hjem</a>
+	<li><a href="Kronologisk.html">Kronologisk</a>
+	<li><a href="Hierarkisk.html">Hierarkisk</a>
+	<li><a href="alfabetisk.html">alfabetisk</a>
+	
+	
+</ul>
 <center>
 
 
-		<select>
-			<option value="ActionScript">Actionscript</option>
-			<option value="AppleScript">Applescript</option>
-			<option value="Asp">Asp</option>
-			<option value="BASIC">BASIC</option>
-			<option value="C">C</option>
-			<option value="C++">C++</option>
-			<option value="Clojure">Clojure</option>
-			<option value="COBOL">COBOL</option>
+		<form>
+		<label for="pro-lang">Velg:</label>
+		<select name="select-pl" id="pro-lang" onChange="printToOutputBox(this)">
+			<option value="asp" class="red-text">ActionScript</option>
+			<option value="asp">AppleScript</option>
+			<option value="asp">Asp</option>
+			<option value="basic">BASIC</option>
+			<option value="c">C</option>
+			<option value="cplusspluss">C++</option>
+			<option value="cplusspluss">Clojure</option>
+			<option value="cplusspluss">COBOL</option>
+			<option value="dotdotdot">...</option>
 		</select>
-		
-		
+	</form>
+<br />
+<span id="outputbox">Intet programmeringsspr&aring;k er selektert. Selekter et programmeringsspr&aring;k!</span>
+	<script src="pro-lang.js"></script>
+
+	<h1> Programmeringspr&aring;k - hva er det?</h1>
+	<p> Velkommen til en mystisk verden av programmeringsspr&aring;k!<p>
+	..............................................................................................
 </center>
 </body>
 </html>
