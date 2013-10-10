@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+
+<head>
+		<link href="pro-lang.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<html>
+<body>
+
+
+<ul class="navbar">
+	<li><a href="pro-lang.html">Hjem</a>
+	<li><a href="pro-lang.html" onclick="myFunction()">Kronologisk</li></a>
+	<li><a href="Hierarkisk.html" onclick="myFunction()">Hierarkisk</a>
+	<li><a href"javascript:void(0)"="alfabetisk.html" onclick="myFunction()">alfabetisk</a>
+
+
+</ul>
+<center>
+<p>Programmeringsspr&aring;k<p>
+
+		<form>
+		<label for="pro-lang">Velg:</label>
+		<select name="select-pl" id="pro-lang" onChange="printToOutputBox(this)">
+			<option value="asp" class="red-text">ActionScript</option>
+			<option value="asp">AppleScript</option>
+			<option value="asp">Asp</option>
+			<option value="basic">BASIC</option>
+			<option value="c">C</option>
+			<option value="cplusspluss">C++</option>
+			<option value="cplusspluss">Clojure</option>
+			<option value="cplusspluss">COBOL</option>
+			<option value="dotdotdot">...</option>
+		</select>
+	</form>
+<br />
+<span id="outputbox"></span>
+	<script src="pro-lang.js"></script>
+
+	<h1> Programmeringspr&aring;k - hva er det?</h1>
+	<p id="test"> Velkommen til en mystisk verden av programmeringsspr&aring;k!<p>
+	..............................................................................................
+</center>
+</body>
+</html>
